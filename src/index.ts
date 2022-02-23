@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: false }))
 app.use(cors())
 
 app.get('/', (request: Request, response: Response) => {
-    return response.send('OK')
+    return response.send('OK, deployou....')
 })
 
 const port = process.env.PORT || 8080
