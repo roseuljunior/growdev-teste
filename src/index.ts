@@ -17,6 +17,6 @@ const port = process.env.PORT || 8080
 // GIT -> versionador (repositório, como fazer o código)
 // GITHUB -> plataforma (local, onde fica o código)
 
-app.listen(8080, () => {
+app.listen(port, () => {
     console.log('API rodando...');
 })
