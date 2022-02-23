@@ -12,6 +12,8 @@ app.get('/', (request: Request, response: Response) => {
     return response.send('OK')
 })
 
+const port = process.env.PORT || 8080
+
 // GIT -> versionador (repositório, como fazer o código)
 // GITHUB -> plataforma (local, onde fica o código)
 
